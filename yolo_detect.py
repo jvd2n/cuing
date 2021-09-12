@@ -46,11 +46,10 @@ def main(img_path):     # 이미지 전처리
                  valid_detections.numpy()]
     result = utils.draw_bbox(img, pred_bbox)        # 결과값을 bounding box로 그림
 
-    result = cv2.cvtColor(np.array(result), cv2.COLOR_RGB2BGR)  # RGB에서 BGR로 변환
+    result = cv2.cvtColor(np.array(result), cv2.COLOR_RGB2BGR)  # RGB에서 BGR로 변환aaa
     cv2.imwrite('result.png', result)   # opencv로 저장하려면 윗줄 과정 필요
 
 
 if __name__ == '__main__':
     img_path = 'C:/Users/bit/yolov4/tensorflow-yolov4-tflite/data/table.jpg'
     main(img_path)
-
