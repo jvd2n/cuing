@@ -473,4 +473,4 @@ darknet
 vcpkg/
 
 
-# End of https://www.toptal.com/developers/gitignore/api/python,linux
+# End of https://www.toptal.com/developers/gitignore/api/python,linux.venv
