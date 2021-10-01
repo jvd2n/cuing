@@ -306,6 +306,10 @@ celerybeat-schedule
 venv*/
 ENV*/
 
+# pycharm
+.idea/
+migrations/
+
 # Spyder project settings
 .spyderproject
 .spyproject
